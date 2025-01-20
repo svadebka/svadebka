@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Fita";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/fitapoluustavc.otf") format("truetype");
+}
+@font-face {
+    font-family: "Volshebstvo";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/TDVolshebstvo.otf") format("truetype");
+}
+@font-face {
+    font-family: "Slovic";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/Slovic_Demo_VarGX.ttf") format("truetype");
+}
+@font-face {
+    font-family: "ColumnSimple";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/columnsimplecyr_lat.otf") format("truetype");
+}
+.columnsimple {
+    font-family: "ColumnSimple";
+}
+.volshebstvo {
+    font-family: "Volshebstvo";
+}
+.slovic {
+    font-family: "Slovic";
+}
+.fita {
+    font-family: "Fita";
+}
+@font-face {
+    font-family: "Fita";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/fitapoluustavc.otf") format("truetype");
+}
+@font-face {
+    font-family: "Runic";
+    font-weight: bold;
+    font-style: normal;
+    src: url("./fonts/Runic.ttf") format("truetype");
+}
+
+body {
+    padding: 6rem 0;
+    background: url("/assets/images/Russian_Embroidery_300px_left.jpg") left center repeat-y,
+        url("/assets/images/Russian_Embroidery_300px_right.jpg") right center repeat-y;
+    font-family: "Fita", sans-serif;
+    font-weight: normal;
+}
+
+@media (max-width: 1600px) {
+    body {
+        padding: 3rem 0;
+        background: url("/assets/images/Russian_Embroidery_mobile_2_28.png") left center repeat-y,
+            url("/assets/images/Russian_Embroidery_mobile_2_28.png") right center repeat-y;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 4rem;
+    font-size: 7em;
+    color: #e12e2e;
+    font-family: "Runic", sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 2.5em;
+    color: #3c3c3c;
+}
+
+.accent {
+    color: #e12e2e;
+}
+.transparent {
+    color: transparent;
+}
+.large-text {
+    font-size: 3.5em;
+}
+.line-height-70 {
+    line-height: 70px;
+}
+.small-text {
+    font-size: 1em;
+}
+@media (max-width: 768px) {
+    .font-size-40-px-m {
+        font-size: 40px;
+    }
+}
+
+.central-column-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.central-column {
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .central-column {
+        max-width: 100%;
+        padding: 0 1.2rem;
+    }
+    h1 {
+        padding: 0 1.2rem;
+        font-size: 4em;
+    }
+    p {
+        font-size: 1.25em;
+    }
+}
+
+.header-image {
+    margin-bottom: 4rem;
+}
+@media (max-width: 768px) {
+    .header-image {
+        margin-bottom: 2rem;
+    }
+}
+.footer-image {
+    margin-top: 2rem;
+}
+.colors-image {
+    border: 2px solid #e12e2e !important;
+}
+
+.separator {
+    width: 100%;
+    margin: 3.5rem 0;
+}
+
+.separator .separator-hr {
+    width: 100%;
+    color: #e12e2e;
+    background: #e12e2e;
+    min-height: 3px;
+    margin: 0;
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .meme-row {
+        flex-direction: column;
+    }
+    .meme-text {
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        font-size: 2em;
+        width: 100%;
+    }
+}
+
+.gallery-container {
+    cursor: zoom-in;
+}
+
+.btn-suits {
+    font-size: 0.8em;
+    border: 2px dashed #e12e2e !important;
+}
+.btn-suits[aria-expanded=true] {
+    border: 2px solid #e12e2e !important;
+}
+.btn-suits:hover {
+    border: 2px solid #e12e2e !important;
+}
+.btn-suits img {
+    width: 25%;
+}
+.btn-suits.btn-suits-men {
+}
+.btn-suits.btn-suits-women {
+
+}
