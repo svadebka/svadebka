@@ -163,6 +163,9 @@ p {
         font-size: 2em;
         width: 100%;
     }
+    .separator .separator-hr {
+        min-height: 1.5px;
+    }
 }
 
 .gallery-container {
