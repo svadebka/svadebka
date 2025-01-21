@@ -58,8 +58,9 @@ body {
 @media (max-width: 1600px) {
     body {
         padding: 3rem 0;
-        background: url("/assets/images/Russian_Embroidery_mobile_2_28.png") left center repeat-y,
-            url("/assets/images/Russian_Embroidery_mobile_2_28.png") right center repeat-y;
+        background: url("/assets/images/Russian_Embroidery_mobile.png") left center repeat-y,
+            url("/assets/images/Russian_Embroidery_mobile.png") right center repeat-y;
+        background-size: 28px;
     }
 }
 
